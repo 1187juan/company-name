@@ -1,6 +1,7 @@
 import styled from '@emotion/styled'
 
 export const Button = styled('button')(({ sx, color = 'primary', theme }) => ({
+	minWidth: '12rem',
 	border: 'none',
 	outline: 'none',
 	padding: '1rem 1.5rem',

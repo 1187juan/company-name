@@ -2,7 +2,7 @@ import {
 	Banner,
 	Header,
 	SectionInfo,
-	// SectionAdditionalInfo,
+	SectionAdditionalInfo,
 	// SectionIntructions,
 	// Footer,
 } from '../layouts'
@@ -13,7 +13,8 @@ export const Home = () => {
 			<Header />
 			<Banner />
 			<SectionInfo />
-			{/* <SectionAdditionalInfo />
+			<SectionAdditionalInfo />
+			{/*
 				<SectionIntructions /> */}
 
 			{/* <Footer /> */}

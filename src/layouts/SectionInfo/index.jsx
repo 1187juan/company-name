@@ -26,7 +26,7 @@ export const SectionInfo = () => {
 					<Title sx={{ textAlign: 'center' }}>
 						Beneficios de usar Plan life
 					</Title>
-					<Grid as='ul'>
+					<Grid as='ul' sx={{ padding: 0 }}>
 						<ItemInfo
 							icon={<MoneyIcon />}
 							primary='Costo'
@@ -66,7 +66,7 @@ export const SectionInfo = () => {
 					left: 0,
 					bottom: 0,
 					translate: '-50% 25%',
-					height: '20rem',
+					height: 'clamp(15rem, 20vw, 20rem)',
 					color: theme.colors.secondary,
 				}}
 			/>
