@@ -66,7 +66,7 @@ export const SectionInfo = () => {
 					left: 0,
 					bottom: 0,
 					translate: '-50% 25%',
-					height: 'clamp(15rem, 20vw, 20rem)',
+					height: 'clamp(15rem, 30vw, 20rem)',
 					color: theme.colors.secondary,
 				}}
 			/>

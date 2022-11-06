@@ -61,7 +61,7 @@ export const SectionIntructions = () => {
 						as='ul'
 						sx={{
 							gridTemplateColumns: '1fr 1fr',
-							gap: '2rem',
+							gap: '3rem',
 							padding: 0,
 							listStyle: 'none',
 						}}
@@ -96,7 +96,7 @@ export const SectionIntructions = () => {
 					top: '50%',
 					right: 0,
 					display: isDesktop ? 'block' : 'none',
-					height: '18rem',
+					height: 'clamp(15rem, 30vw, 20rem)',
 					color: theme.colors.secondary,
 					translate: '50% -65%',
 				}}

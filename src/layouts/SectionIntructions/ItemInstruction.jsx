@@ -8,11 +8,11 @@ export const ItemInstruction = ({ icon, number, description }) => {
 			<Box
 				sx={{
 					position: 'relative',
-					width: '8rem',
-					paddingTop: '3rem',
-					paddingLeft: '3rem',
+					width: '7rem',
+					paddingTop: '2.375rem',
+					paddingLeft: '2.375rem',
 					margin: 'auto',
-					fontSize: '5rem',
+					fontSize: '4rem',
 					color: theme.colors.secondary,
 				}}
 			>
@@ -21,8 +21,8 @@ export const ItemInstruction = ({ icon, number, description }) => {
 						position: 'absolute',
 						top: 0,
 						left: 0,
-						width: '5rem',
-						fontSize: '4rem',
+						width: '4rem',
+						fontSize: '3rem',
 						borderRadius: '50%',
 						border: `.125rem solid ${theme.colors.primary}`,
 					}}
