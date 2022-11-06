@@ -1,6 +1,6 @@
-import { Navbar } from './Navbar'
 import logo from '../assets/Logo.webp'
 import { Box, Flex, Img } from '../components'
+import { Nav } from './Nav'
 
 export const Header = () => {
 	return (
@@ -26,8 +26,12 @@ export const Header = () => {
 					margin: 'auto',
 				}}
 			>
-				<Img src={logo} alt='logo' sx={{ borderRadius: '50%' }} />
-				<Navbar />
+				<Img
+					src={logo}
+					alt='logo'
+					sx={{ borderRadius: '50%', width: '7rem', height: '7rem' }}
+				/>
+				<Nav />
 			</Flex>
 		</Box>
 	)
