@@ -9,7 +9,7 @@ export const Header = () => {
 			sx={{
 				position: 'fixed',
 				top: 0,
-				zIndex: 1,
+				zIndex: 2,
 				width: '100%',
 				paddingTop: '1rem',
 				backgroundColor: 'hsla(0, 0%, 100%, .54)',

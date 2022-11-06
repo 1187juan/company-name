@@ -1,4 +1,4 @@
-export const MenuIcon = props => {
+export const ChevronRightIcon = props => {
 	return (
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
@@ -8,7 +8,7 @@ export const MenuIcon = props => {
 			fill='currentColor'
 			{...props}
 		>
-			<path d='M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z' />
+			<path d='M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z' />
 		</svg>
 	)
 }
