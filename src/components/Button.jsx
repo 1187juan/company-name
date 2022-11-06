@@ -8,6 +8,7 @@ export const Button = styled('button')(({ sx, color = 'primary', theme }) => ({
 	fontWeight: 700,
 	color: 'white',
 	backgroundColor: theme.colors[color],
+	transition: 'scale 100ms ease',
 	'&:hover': {
 		filter: 'brightness(1.125)',
 	},

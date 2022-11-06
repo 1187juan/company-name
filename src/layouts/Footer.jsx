@@ -1,8 +1,5 @@
 import logo from '../assets/Logo.webp'
-import youtubeIcon from '../assets/youtube-icon.svg'
-import twitterIcon from '../assets/twitter-icon.svg'
-import facebookIcon from '../assets/facebook-icon.svg'
-import instagramIcon from '../assets/instagram-icon.svg'
+import { FacebookIcon, InstagramIcon, TwitterIcon, YouTubeIcon } from '../icons'
 
 export const Footer = () => {
 	return (
@@ -23,20 +20,17 @@ export const Footer = () => {
 			<aside>
 				Redes sociales
 				<nav>
-					<a href='https://www.youtube.com/' target='_blanck'>
-						<img src={youtubeIcon} alt='youtube' />
-					</a>
 					<a href='https://www.facebook.com/' target='_blanck'>
-						<img src={facebookIcon} alt='facebook' />
+						<FacebookIcon />
 					</a>
 					<a href='https://www.twitter.com/' target='_blanck'>
-						<img src={twitterIcon} alt='twitter' />
+						<TwitterIcon />
 					</a>
 					<a href='https://www.instagram.com/' target='_blanck'>
-						<img src={instagramIcon} alt='instagram' />
+						<InstagramIcon />
 					</a>
 					<a href='https://www.youtube.com/' target='_blanck'>
-						<img src={youtubeIcon} alt='youtube' />
+						<YouTubeIcon />
 					</a>
 				</nav>
 			</aside>

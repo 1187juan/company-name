@@ -22,7 +22,7 @@ export const Header = () => {
 					gap: '1rem',
 					width: 'calc(100% - 2rem)',
 					maxWidth: '75rem',
-					paddingLeft: '5rem',
+					paddingLeft: 'clamp(0rem, 4vw, 5rem)',
 					margin: 'auto',
 				}}
 			>

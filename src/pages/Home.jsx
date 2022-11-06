@@ -1,11 +1,10 @@
-import { Container } from '../components/Container'
 import {
 	Banner,
 	Header,
 	SectionInfo,
-	SectionAdditionalInfo,
-	SectionIntructions,
-	Footer,
+	// SectionAdditionalInfo,
+	// SectionIntructions,
+	// Footer,
 } from '../layouts'
 
 export const Home = () => {
@@ -13,12 +12,11 @@ export const Home = () => {
 		<>
 			<Header />
 			<Banner />
-			<Container>
-				{/* <SectionInfo />
-				<SectionAdditionalInfo />
+			<SectionInfo />
+			{/* <SectionAdditionalInfo />
 				<SectionIntructions /> */}
-			</Container>
-			<Footer />
+
+			{/* <Footer /> */}
 		</>
 	)
 }

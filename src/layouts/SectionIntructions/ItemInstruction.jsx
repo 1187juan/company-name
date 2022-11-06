@@ -2,7 +2,7 @@ export const ItemInstruction = ({ icon, number, description }) => {
 	return (
 		<li>
 			<p>{number}</p>
-			<img src={icon} alt={number} />
+			{icon}
 			<p>{description}</p>
 		</li>
 	)

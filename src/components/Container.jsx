@@ -1,12 +1,16 @@
-import { Grid } from './Grid'
+import { Box } from './Box'
 
-export const Container = ({ children }) => {
+export const Container = ({ children, sx = {} }) => {
 	return (
-		<Grid
-			as='main'
-			sx={{ width: 'calc(100% - 2rem)', maxWidth: '80rem', margin: 'auto' }}
+		<Box
+			sx={{
+				width: 'calc(100% - 2rem)',
+				maxWidth: '75rem',
+				margin: 'auto',
+				...sx,
+			}}
 		>
 			{children}
-		</Grid>
+		</Box>
 	)
 }
