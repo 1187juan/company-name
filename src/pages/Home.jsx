@@ -3,7 +3,7 @@ import {
 	Header,
 	SectionInfo,
 	SectionAdditionalInfo,
-	// SectionIntructions,
+	SectionIntructions,
 	// Footer,
 } from '../layouts'
 
@@ -14,8 +14,7 @@ export const Home = () => {
 			<Banner />
 			<SectionInfo />
 			<SectionAdditionalInfo />
-			{/*
-				<SectionIntructions /> */}
+			<SectionIntructions />
 
 			{/* <Footer /> */}
 		</>
