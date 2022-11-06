@@ -6,7 +6,7 @@ import instagramIcon from '../assets/instagram-icon.svg'
 
 export const Footer = () => {
 	return (
-		<footer>
+		<footer style={{ display: 'none' }}>
 			<img src={logo} alt='logo' />
 			<nav>
 				<a href='/'>Inicio</a>

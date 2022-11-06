@@ -1,13 +1,21 @@
+import { Flex, Link } from '../components'
+
 export const Navbar = () => {
 	return (
-		<nav>
-			<a href='/'>Inicio</a>
-			<a href='/'>Nosotros</a>
-			<a href='/'>Vida</a>
-			<a href='/'>Promociones</a>
-			<a href='/'>Faq´s</a>
-			<a href='/'>Blog</a>
-			<a href='/'>Contacto</a>
-		</nav>
+		<Flex
+			as='nav'
+			sx={{
+				columnGap: '3rem',
+				flexWrap: 'wrap',
+			}}
+		>
+			<Link href='/'>Inicio</Link>
+			<Link href='/'>Nosotros</Link>
+			<Link href='/'>Vida</Link>
+			<Link href='/'>Promociones</Link>
+			<Link href='/'>Faq´s</Link>
+			<Link href='/'>Blog</Link>
+			<Link href='/'>Contacto</Link>
+		</Flex>
 	)
 }

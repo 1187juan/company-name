@@ -12,11 +12,11 @@ export const Home = () => {
 	return (
 		<>
 			<Header />
+			<Banner />
 			<Container>
-				<Banner />
-				<SectionInfo />
+				{/* <SectionInfo />
 				<SectionAdditionalInfo />
-				<SectionIntructions />
+				<SectionIntructions /> */}
 			</Container>
 			<Footer />
 		</>
